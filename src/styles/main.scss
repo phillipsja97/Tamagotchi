@@ -1,3 +1,35 @@
-body {
-    background-color: teal;
-}
+.quad {
+    width: 50vw;
+    height: 50vw;
+};
+
+#eat {
+    position: fixed; 
+    top: 0; 
+    left: 0;
+    background-color: #c8d5b9;
+  
+};
+
+#play {
+    position: fixed;
+    background-color: #8fc0a9;
+    top: 0; 
+    left: 50%;
+};
+
+#fight {
+    position: fixed;
+    background: #faf3dd;
+    top: 50%;
+    left: 0;
+
+};
+
+#sleep {
+    position: fixed;
+    background-color: #68b0ab;
+    top: 50%;
+    left: 50%;
+};
+
