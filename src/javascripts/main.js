@@ -3,6 +3,7 @@ import eat from './components/eat';
 import play from './components/play';
 import fight from './components/fight';
 import sleep from './components/sleep';
+// import tamagotchiImage from './components/tamagotchiImage';
 
 
 const init = () => {
@@ -13,6 +14,16 @@ const init = () => {
   eat.eatSubtractProgress();
   eat.unhealthyOption();
   eat.healthyOption();
+  play.playSubtractProgress();
+  play.superFunOption();
+  play.slightlyFunOption();
+  fight.fightSubtractProgress();
+  fight.braveOption();
+  fight.violenceOption();
+  sleep.sleepSubtractProgress();
+  sleep.slumberOption();
+  sleep.napOption();
+  // tamagotchiImage.printImage();
 };
 
 init();
