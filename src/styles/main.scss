@@ -33,3 +33,35 @@
     left: 50%;
 };
 
+.playContainer {
+    text-align: center;
+}
+
+.feedMe {
+    text-align: center;
+}
+
+.sleepContainer {
+    text-align: center;
+}
+
+.fightContainer {
+    text-align: center;
+}
+
+.overallButton {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 20px;
+}
+
+.checkProgress {
+    display: flex;
+    justify-content: center;
+}
+
+label {
+    display: flex;
+    justify-content: center;
+}
