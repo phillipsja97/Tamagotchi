@@ -9,8 +9,8 @@ const printEat = () => {
     <h2>Eat</h2>
   </div>
   <div class="overallButton">
-  <button id="healthyButton">Have a healthy snack</button>
-  <button id="unhealthyButton">Have an unhealthy snack</button>
+  <button id="healthyButton" class="example_e" align="center">Eat a Healthy Snack</a></button>
+  <button id="unhealthyButton" class="example_e" align="center">Eat Junkfood</a></button>
   </div>
   <label>Progress</label>
   <div class="checkProgress">
