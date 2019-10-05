@@ -48,4 +48,9 @@ const eatSubtractProgress = () => {
   eatSubtractBySeconds();
 };
 
-export default { printEat, unhealthyOption, eatSubtractProgress, healthyOption };
+export default {
+  printEat,
+  unhealthyOption,
+  eatSubtractProgress,
+  healthyOption,
+};

@@ -48,4 +48,9 @@ const playSubtractProgress = () => {
   playSubtractBySeconds();
 };
 
-export default { printPlay, playSubtractProgress, superFunOption, slightlyFunOption };
+export default {
+  printPlay,
+  playSubtractProgress,
+  superFunOption,
+  slightlyFunOption,
+};
