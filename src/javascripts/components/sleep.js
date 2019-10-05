@@ -48,4 +48,9 @@ const sleepSubtractProgress = () => {
   sleepSubtractBySeconds();
 };
 
-export default { printSleep, sleepSubtractProgress, napOption, slumberOption };
+export default {
+  printSleep,
+  sleepSubtractProgress,
+  napOption,
+  slumberOption,
+};

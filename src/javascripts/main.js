@@ -3,7 +3,7 @@ import eat from './components/eat';
 import play from './components/play';
 import fight from './components/fight';
 import sleep from './components/sleep';
-// import tamagotchiImage from './components/tamagotchiImage';
+import tamagotchiImage from './components/tamagotchiImage';
 
 
 const init = () => {
@@ -23,7 +23,7 @@ const init = () => {
   sleep.sleepSubtractProgress();
   sleep.slumberOption();
   sleep.napOption();
-  // tamagotchiImage.printImage();
+  tamagotchiImage.printImage();
 };
 
 init();

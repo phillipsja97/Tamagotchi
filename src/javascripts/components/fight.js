@@ -48,4 +48,9 @@ const fightSubtractProgress = () => {
   fightSubtractBySeconds();
 };
 
-export default { printFight, fightSubtractProgress, violenceOption, braveOption };
+export default {
+  printFight,
+  fightSubtractProgress,
+  violenceOption,
+  braveOption,
+};
