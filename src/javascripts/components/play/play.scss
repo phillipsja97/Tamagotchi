@@ -1,0 +1,81 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/variables.scss';
+
+#play {
+  position: fixed;
+  background-color: $darkgreen;
+  top: 0; 
+  left: 50%;
+};
+
+.playContainer {
+  text-align: center;
+}
+
+.checkProgress {
+  display: flex;
+  justify-content: center;
+}
+
+h2 {
+  text-shadow: 0 -1px 4px #FFF, 0 -2px 10px #ff0, 0 -10px 20px #ff8000, 0 -18px 40px #F00, 8px -3px 6px rgba(206,94,31,0.54);
+  color: #FFFFFF;
+  font-size: 40px;        
+}
+
+.overallButton {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+}
+
+label {
+  display: flex;
+  justify-content: center;
+}
+
+progress[value] {
+  width: 250px;
+  height: 20px;
+  -webkit-appearance: none;
+  appearance: none;
+
+}
+
+progress[value]::-webkit-progress-value {
+  background-image:
+       -webkit-linear-gradient(-45deg, 
+                               transparent 33%, rgba(0, 0, 0, .1) 33%, 
+                               rgba(0,0, 0, .1) 66%, transparent 66%),
+       -webkit-linear-gradient(top, 
+                               rgba(131, 15, 15, 0.849), 
+                               rgba(88, 72, 72, 0.25)),
+       -webkit-linear-gradient(left, rgb(64, 164, 197), rgb(199, 131, 131));
+
+    border-radius: 2px; 
+    background-size: 35px 20px, 100% 100%, 100% 100%;
+};
+
+.example_e {
+  border: none;
+  background: #f1f7f6;
+  color: #3bb8a7 !important;
+  font-weight: 100;
+  padding: 20px;
+  text-transform: uppercase;
+  border-radius: 6px;
+  display: inline-block;
+  transition: all 0.3s ease 0s;
+  }
+
+.example_e:hover {
+  color: #404040 !important;
+  font-weight: 700 !important;
+  letter-spacing: 3px;
+  background: none;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(43, 39, 39, 0.57);
+  transition: all 0.3s ease 0s;
+  
+}

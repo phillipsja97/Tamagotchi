@@ -1,9 +1,10 @@
 import '../styles/main.scss';
-import eat from './components/eat';
-import play from './components/play';
-import fight from './components/fight';
-import sleep from './components/sleep';
-import tamagotchiImage from './components/tamagotchiImage';
+import eat from './components/eat/eat';
+import play from './components/play/play';
+import fight from './components/fight/fight';
+import sleep from './components/sleep/sleep';
+import tamagotchiImage from './components/image/tamagotchiImage';
+import overall from './components/overall/overall';
 
 
 const init = () => {
@@ -24,6 +25,8 @@ const init = () => {
   sleep.slumberOption();
   sleep.napOption();
   tamagotchiImage.printImage();
+  // play.dieAlert();
+  overall.overallProgressBar();
 };
 
 init();

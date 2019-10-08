@@ -1,0 +1,14 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/variables.scss';
+
+#pet {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+img {
+  height: 150px;
+  width: 150px;
+}

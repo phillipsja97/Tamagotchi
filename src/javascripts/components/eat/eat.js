@@ -1,4 +1,5 @@
-import utilities from '../helpers/utilities';
+import utilities from '../../helpers/utilities';
+import './eat.scss';
 
 let full = 100;
 
@@ -14,7 +15,7 @@ const printEat = () => {
   </div>
   <label>Progress</label>
   <div class="checkProgress">
-  <progress id="eatProgress" max="100" value="${full}"></progress>
+  <progress class="progressBar" id="eatProgress" max="100" value="${full}"></progress>
   </div>
     `;
   utilities.printToDom('eat', domString);
