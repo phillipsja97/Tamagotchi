@@ -1,0 +1,10 @@
+@import '../../../styles/colors.scss';
+@import '../../../styles/variables.scss';
+
+
+#progress {
+  z-index: 1;
+  position: fixed;
+  top: 35%;
+  left: 42%;
+};

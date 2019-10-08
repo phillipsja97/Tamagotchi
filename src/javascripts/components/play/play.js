@@ -1,4 +1,5 @@
-import utilities from '../helpers/utilities';
+import utilities from '../../helpers/utilities';
+import './play.scss';
 
 let fun = 50;
 
@@ -14,7 +15,7 @@ const printPlay = () => {
   </div>
   <label>Progress</label>
   <div class="checkProgress">
-  <progress id="playProgress" max="100" value="${fun}"></progress>
+  <progress class="progressBar" id="playProgress" max="100" value="${fun}"></progress>
   </div>
   `;
   utilities.printToDom('play', domString);
@@ -48,9 +49,17 @@ const playSubtractProgress = () => {
   playSubtractBySeconds();
 };
 
+// const dieAlert = () => {
+//   const play = document.getElementById('playProgress').value;
+//   if (play === 0) {
+//     console.log('you killed me');
+//   }
+// };
+
 export default {
   printPlay,
   playSubtractProgress,
   superFunOption,
   slightlyFunOption,
+  // dieAlert,
 };

@@ -1,4 +1,5 @@
-import utilities from '../helpers/utilities';
+import utilities from '../../helpers/utilities';
+import './sleep.scss';
 
 let energy = 50;
 
@@ -14,7 +15,7 @@ const printSleep = () => {
   </div>
   <label>Progress</label>
   <div class="checkProgress">
-  <progress id="sleepProgress" max="100" value="${energy}"></progress>
+  <progress class="progressBar" id="sleepProgress" max="100" value="${energy}"></progress>
   </div>
   `;
   utilities.printToDom('sleep', domString);

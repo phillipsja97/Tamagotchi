@@ -1,4 +1,5 @@
-import utilities from '../helpers/utilities';
+import utilities from '../../helpers/utilities';
+import './fight.scss';
 
 let strength = 100;
 
@@ -14,7 +15,7 @@ const printFight = () => {
   </div>
   <label>Progress</label>
   <div class="checkProgress">
-  <progress id="fightProgress" max="100" value="${strength}"></progress>
+  <progress class="progressBar" id="fightProgress" max="100" value="${strength}"></progress>
   </div>
   `;
   utilities.printToDom('fight', domString);
