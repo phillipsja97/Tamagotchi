@@ -23,6 +23,7 @@ const overallProgressBar = () => {
   </div>
   `;
   utilities.printToDom('progress', domString);
+  setInterval(overallProgressBar, 30000);
 };
 
 
