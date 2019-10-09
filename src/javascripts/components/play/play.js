@@ -1,5 +1,6 @@
 import utilities from '../../helpers/utilities';
 import './play.scss';
+import overall from '../overall/overall';
 
 let fun = 50;
 
@@ -31,6 +32,7 @@ const superFunOption = () => {
     }
     document.getElementById('playProgress').value = fun;
   });
+  overall.overallProgressBar();
 };
 
 const slightlyFunOption = () => {
