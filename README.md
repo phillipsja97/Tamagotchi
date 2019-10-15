@@ -6,6 +6,8 @@
 
 ## Screenshot
 
+![Tamagotchi Screenshot](https://raw.githubusercontent.com/phillipsja97/Tamagotchi/master/src/Screenshot.PNG)
+
 ## How To Run
 
 * Clone down this project
