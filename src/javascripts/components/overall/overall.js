@@ -21,6 +21,6 @@ const overallProgressBar = () => {
   `;
   utilities.printToDom('progress', domString);
   setInterval(overallProgressBar, 10);
-  };
+};
 
 export default { overallProgressBar };
